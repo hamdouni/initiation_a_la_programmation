@@ -14,6 +14,15 @@ Nous utiliserons le langage Go car il dispose de plusieurs avantages :
 * La complétude : Go permet de faire à peu près tous les types de programmes.
 * La rigueur : les règles sont peu nombreuses mais inviolables (fortement typé, erreur à la compilation, ...).
 
+## Contenus
+
+Le cours est divisé en 4 parties :
+
+1. [Le bac-à-sable](partie_01/README.md) : on débute par une prise en main de l'outil qui nous permettre d'écrire nos programmes.
+2. [Premiers exercices](partie_02/README.md) : on enchaîne avec quelques corrigés d'exercices qui nous mettent dans le bain.
+3. [Théorie des variables](partie_03/README.md) : où l'on explicite quelques notions clés comme les variables et les types.
+4. [Pratique des variables](partie_04/README.md) : après la théorie, on retourne à la pratique avec quelques exercices corrigés sur les variables.
+
 ## Contributions
 
 Toutes les contributions sont les bienvenus sous la forme de PR pour modifier le contenu, sous forme d'issues pour faire des demandes d'évolutions ou déclarer une erreur.
