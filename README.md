@@ -25,4 +25,4 @@ Le cours est divisé en 4 parties :
 
 ## Contributions
 
-Toutes les contributions sont les bienvenus sous la forme de PR pour modifier le contenu, sous forme d'issues pour faire des demandes d'évolutions ou déclarer une erreur.
+Toutes les contributions sont les bienvenus dans le projet [GitHub](https://github.com/hamdouni/initiation_a_la_programmation), sous la forme de PR pour modifier le contenu, sous forme d'issues pour faire des demandes d'évolutions ou déclarer une erreur.
