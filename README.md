@@ -18,10 +18,10 @@ Nous utiliserons le langage Go car il dispose de plusieurs avantages :
 
 Le cours est divisé en 4 parties :
 
-1. [Le bac-à-sable](partie_01/README.md) : on débute par une prise en main de l'outil qui nous permettre d'écrire nos programmes.
-2. [Premiers exercices](partie_02/README.md) : on enchaîne avec quelques corrigés d'exercices qui nous mettent dans le bain.
-3. [Théorie des variables](partie_03/README.md) : où l'on explicite quelques notions clés comme les variables et les types.
-4. [Pratique des variables](partie_04/README.md) : après la théorie, on retourne à la pratique avec quelques exercices corrigés sur les variables.
+1. [Le bac-à-sable](cours/partie_01/README.md) : on débute par une prise en main de l'outil qui nous permettre d'écrire nos programmes.
+2. [Premiers exercices](cours/partie_02/README.md) : on enchaîne avec quelques corrigés d'exercices qui nous mettent dans le bain.
+3. [Théorie des variables](cours/partie_03/README.md) : où l'on explicite quelques notions clés comme les variables et les types.
+4. [Pratique des variables](cours/partie_04/README.md) : après la théorie, on retourne à la pratique avec quelques exercices corrigés sur les variables.
 
 ## Contributions
 
