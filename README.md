@@ -13,3 +13,7 @@ Nous utiliserons le langage Go car il dispose de plusieurs avantages :
 * La simplicité : peu de mots à connaître et une façon simple d'écrire les phrases.
 * La complétude : Go permet de faire à peu près tous les types de programmes.
 * La rigueur : les règles sont peu nombreuses mais inviolables (fortement typé, erreur à la compilation, ...).
+
+## Contributions
+
+Toutes les contributions sont les bienvenus sous la forme de PR pour modifier le contenu, sous forme d'issues pour faire des demandes d'évolutions ou déclarer une erreur.
