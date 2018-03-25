@@ -30,7 +30,7 @@ func main() {
 
 En exécutant le programme (bouton **RUN** ou SHIFT+ENTER), on obtient :
 
-![table_de_9](02_table_de_9.png)
+![table_de_9](assets/02_table_de_9.png)
 
 Et donc, pour obtenir les autres tables, on applique la même méthode, en remplaçant le terme dans l'instruction **print**.
 
@@ -66,7 +66,7 @@ func main() {
 
 Exécutons le programme pour vérifier que tout est bon :
 
-![table_de_7_moche](02_table_de_7_moche.png) 
+![table_de_7_moche](assets/02_table_de_7_moche.png) 
 
 Pas terrible. Tout est collé.
 
@@ -78,7 +78,7 @@ Ajoutons quelques espaces dans notre ligne **print**, autour du signe "x", du si
 
 Cela donne :
 
-![table_de_7_moins_moche](02_table_de_7_moins_moche.png)
+![table_de_7_moins_moche](assets/02_table_de_7_moins_moche.png)
 
 C'est mieux mais pas très lisible. L'idéal serait de sauter une ligne après chaque opération.
 
@@ -92,7 +92,7 @@ Changeons notre ligne comme suit en ajoutant notre code spécial :
 
 Pour un résultat plus convainquant :
 
-![table_de_7_jolie](02_table_de_7_jolie.png)
+![table_de_7_jolie](assets/02_table_de_7_jolie.png)
 
 Voilà le programme au complet :
 
@@ -185,7 +185,7 @@ func main() {
 
 Et une fois exécuté, nous avons :
 
-![table_complete_moche](02_table_complete_moche.png)
+![table_complete_moche](assets/02_table_complete_moche.png)
 
 Tous les résultas s'enchainent sur une même ligne ! Or nous voulions qu'à chaque nouvelle table, on saute de ligne.
 
@@ -207,7 +207,7 @@ Remarquez l'ajout de la ligne **print("\n")** juste après le **for** intérieur
 
 Qu'obtient-on ?
 
-![table_complete_moins_moche](02_table_complete_moins_moche.png)
+![table_complete_moins_moche](assets/02_table_complete_moins_moche.png)
 
 Le tableau est mal aligné parce-que tous les nombres n'ont pas la même taille. 
 
@@ -230,7 +230,7 @@ func main() {
 
 Et voilà un résultat plus que satisfaisant :
 
-![table_complete_jolie](02_table_complete_jolie.png)
+![table_complete_jolie](assets/02_table_complete_jolie.png)
 
 ## Conclusion
 

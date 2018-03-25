@@ -10,7 +10,7 @@ Avec votre navigateur, allez sur http://play.golang.com
 
 Vous trouverez un écran subdivisé en 3 parties :
 
-![bac-à-sable](01_playground.png)
+![bac-à-sable](assets/01_playground.png)
 
 01. Le fond bleu, en haut et à l'horizontal, délimite le menu.
 02. Le fond jaune, au centre, contient le programme
@@ -40,7 +40,7 @@ Cliquez sur le bouton "Run".
 
 **Astuce** : au lieu de cliquez sur "Run", vous pouvez utiliser le raccourci clavier **SHIFT + ENTER**  .
 
-![hello-brahim](01_hello_brahim.png)
+![hello-brahim](assets/01_hello_brahim.png)
 
 Si vous lisez "Hello" suivi de votre prénom, félicitation, vous venez d'exécuter un programme Go !
 
@@ -136,7 +136,7 @@ Vous pouvez utiliser le bouton **Format** pour que votre code soit mieux présen
 
 Appuyez sur **Run** ou Shift+Enter et voilà :
 
-![table_de_7](01_table_de_7.png) 
+![table_de_7](assets/01_table_de_7.png) 
 
 Notre premier programme en Go fait quelque chose d'utile... en tous les cas pour moi :-)
 
