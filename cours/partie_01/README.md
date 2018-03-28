@@ -1,8 +1,6 @@
 # Initiation à la programmation informatique - Partie 1
 
-Débutons à programmer sans rien installer sur son ordinateur. 
-
-Nous allons faire connaissance avec le langage Go, apprendre à le manipuler et enfin écrire un premier programme utile.
+Faisons connaissance avec le langage Go. Apprenons à le lire et le manipuler. Puis écrivons un premier programme utile.
 
 ## Le bac à sable
 
