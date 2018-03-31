@@ -14,9 +14,17 @@ Vous trouverez un écran subdivisé en 3 parties :
 02. Le fond jaune, au centre, contient le programme
 03. enfin le fond blanc, en bas de page, affichera les résultats
 
-C'est le *playground* de Go (bac à sable en anglais) : un endroit où l'on peut s'initier à Go directement dans son navigateur.
+C'est le **bac à sable** de Go (*playground* en anglais) : un endroit où l'on peut s'initier à Go, sans rien installer sur son ordinateur, avec un simple navigateur.
 
-Nous allons modifier le code. 
+On constate qu'il y a déjà du code présent dans la partie jaune. Appuyons sur le bouton **Run**.
+
+Vous devriez constater le message suivant dans la zone blanche :
+
+``` 
+Hello, playground
+```
+
+Nous venons d'exécuter un programme écrit en Go. Tentons de le modifier. 
 
 Dans la partie jaune, repérez la ligne suivante (*située à la 8ème position*) :
 
@@ -26,7 +34,7 @@ Dans la partie jaune, repérez la ligne suivante (*située à la 8ème position*
 
 1. Cliquez à l'intérieur du bloc jaune.
 2. Positionnez le curseur avant le mot **playground**.
-3. Supprimez le et remplacez le par votre prénom.
+3. Supprimez ce dernier et remplacez le par votre prénom.
 
 Voilà ce que cela donne pour exemple avec mon prénom :
 
@@ -34,19 +42,19 @@ Voilà ce que cela donne pour exemple avec mon prénom :
     fmt.Println("Hello, Brahim")
 ```
 
-Cliquez sur le bouton "Run".
+Cliquez sur le bouton **Run**.
 
 **Astuce** : au lieu de cliquez sur "Run", vous pouvez utiliser le raccourci clavier **SHIFT + ENTER**  .
 
 ![hello-brahim](assets/01_hello_brahim.png)
 
-Si vous lisez "Hello" suivi de votre prénom, félicitation, vous venez d'exécuter un programme Go !
+Si vous lisez "Hello" suivi de votre prénom, félicitation ! Vous avez réussis notre premier exercice.
 
 ## Notre premier programme
 
-Vous avez compris que ceux sont les lignes de code qui se trouvent dans le bloc jaune, qui ont produit ce résultat. 
+Vous avez compris que les lignes de code, qui se trouvent dans le bloc jaune, sont responsables de l'affichage. 
 
-Nous allons écrire un programme un peu plus compliqué : affichons la table de multiplication du nombre 7. J'ai toujours du mal à la retenir :-)
+Voyons comment nous pouvons écrire un programme un peu plus compliqué : affichons la table de multiplication du nombre 7. J'ai toujours du mal à la retenir :-)
 
 Commençons par effacer entièrement le programme existant.
 
@@ -62,8 +70,7 @@ Ecrivons la ligne suivante :
 package main
 ```
 
-En anglais, **package** signifie "paquet" et **main** signifie principal. 
-Pour le moment, retenons que notre programme se trouve dans le paquet principal.
+En anglais, **package** signifie "paquet" et **main** signifie principal : notre programme fait partie du paquet principal.
 
 Passons à la ligne (touche **Entrée**) et entrons la suite : 
 
@@ -71,7 +78,9 @@ Passons à la ligne (touche **Entrée**) et entrons la suite :
 func main() {
 ```
 
-Le mot **func** introduit une fonction. Elle permet de regrouper du code. Chaque fonction porte un nom, ici **main**.
+Le mot **func** introduit une fonction. Elle permet de regrouper le code qui la suit et qui est entouré par une accolade ouvrante et fermante. 
+
+Chaque fonction porte un nom, ici **main**.
 
 La fonction **main** a une propriété particulière pour Go : c'est là que notre programme commence.
 
@@ -108,7 +117,7 @@ Ajouter à la ligne le code à répeter :
 
 Ici, on affiche **i*7**, la variable i qu'on multiplie par 7, suivi d'un petit espace **" "** pour que nos nombres ne s'affichent pas collés les uns aux autres.
 
-**Pour information** : La petite étoile **\*** représente le signe de multiplication, et non une croix comme on a l'habitude. Les autres opérations arithmétiques sont **+** et **-**, sans surprise, mais **/** pour la division. 
+**Pour information** : La multiplication est représentée par une petite étoile **\***, et non une croix comme on a l'habitude. Les autres opérations arithmétiques sont **+** et **-**, sans surprise, mais **/** pour la division. 
 
 Comme **i** vaut 1 au début de notre boucle, on affichera 1*7, soit 7.
 
@@ -116,7 +125,9 @@ Puis **i** passe à 2, et on affichera 2*7, soit 14.
 
 Et ainsi de suite jusqu'à ce que **i** vaut 10.
 
-N'oubliez pas d'ajouter 2 accolades fermantes : une pour fermer celle de la ligne **for** et l'autre pour la ligne **func**.
+N'oubliez pas d'ajouter 2 accolades fermantes : une pour fermer l'accolade ouvrante de la ligne **for** et l'autre pour la ligne **func**.
+
+Appuyez sur le bouton **Format** pour que votre code soit mieux présenté.
 
 Vous devriez obtenir le programme complet suivant :
 
@@ -129,8 +140,6 @@ func main() {
 	}
 }
 ```
-
-Vous pouvez utiliser le bouton **Format** pour que votre code soit mieux présenté.
 
 Appuyez sur **Run** ou Shift+Enter et voilà :
 
@@ -159,14 +168,19 @@ Vous pouvez également expliciter la multiplication en affichant l'opération, p
 Et pour les plus téméraires, vous pouvez réfléchir à afficher toutes les tables sous la forme d'un tableau comme suit :
 
 ```
-1	2	3	4	5	6	7	8	9	10	
-2	4	6	8	10	12	14	16	18	20	
-3	6	9	12	15	18	21	24	27	30	
-4	8	12	16	20	24	28	32	36	40	
-5	10	15	20	25	30	35	40	45	50	
-6	12	18	24	30	36	42	48	54	60	
-7	14	21	28	35	42	49	56	63	70	
-8	16	24	32	40	48	56	64	72	80	
-9	18	27	36	45	54	63	72	81	90	
-10	20	30	40	50	60	70	80	90	100	
+1  2  3  4  5  6  7  8  9  10
+2  4  6  8  10 12 14 16 18 20
+3  6  9  12 15 18 21 24 27 30
+4  8  12 16 20 24 28 32 36 40
+5  10 15 20 25 30 35 40 45 50
+6  12 18 24 30 36 42 48 54 60
+7  14 21 28 35 42 49 56 63 70
+8  16 24 32 40 48 56 64 72 80
+9  18 27 36 45 54 63 72 81 90
+10 20 30 40 50 60 70 80 90 100
 ```
+
+## Prochaine partie
+
+Nous verrons la corrections dans les
+[Premiers exercices](../partie_02/README.md).

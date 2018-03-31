@@ -111,16 +111,16 @@ func main() {
 Pour ce dernier exercice, on veut afficher toutes les tables de multiplication de 1 à 10, sous la forme d'un tableau comme suit :
 
 ```
-1	2	3	4	5	6	7	8	9	10	
-2	4	6	8	10	12	14	16	18	20	
-3	6	9	12	15	18	21	24	27	30	
-4	8	12	16	20	24	28	32	36	40	
-5	10	15	20	25	30	35	40	45	50	
-6	12	18	24	30	36	42	48	54	60	
-7	14	21	28	35	42	49	56	63	70	
-8	16	24	32	40	48	56	64	72	80	
-9	18	27	36	45	54	63	72	81	90	
-10	20	30	40	50	60	70	80	90	100	
+1  2  3  4  5  6  7  8  9  10
+2  4  6  8  10 12 14 16 18 20
+3  6  9  12 15 18 21 24 27 30
+4  8  12 16 20 24 28 32 36 40
+5  10 15 20 25 30 35 40 45 50
+6  12 18 24 30 36 42 48 54 60
+7  14 21 28 35 42 49 56 63 70
+8  16 24 32 40 48 56 64 72 80
+9  18 27 36 45 54 63 72 81 90
+10 20 30 40 50 60 70 80 90 100
 ```
 
 Une première approche pourrait être de partir de l'exercice 1 et de dupliquer les lignes comme suit :
@@ -141,7 +141,7 @@ func main() {
 ...
 ```
 
-Et l'on répéterait le bloc 10 fois, en changeant à chaque fois, le terme de la multiplication.
+Et l'on répéterait le bloc 10 fois, en changeant le terme de la multiplication.
 
 Mais cette approche, même si elle marche, n'est pas bonne. En informatique, on doit éviter de dupliquer du code !
 
@@ -240,4 +240,6 @@ Nous avons approfondis nos connaissances de l'instruction **for** et des variabl
 
 Et nous avons appliqué une bonne pratique de programmation en évitant de dupliquer du code !
 
-Pour la prochaine fois, nous verrons un peu plus la notion de variables, comment les déclarer et comment les manipuler.
+## Prochaine partie
+
+Pour la prochaine fois, nous verrons un peu plus la notion de variables, comment les déclarer et comment les manipuler dans la [Théorie des variables](cours/partie_03/README.md)
