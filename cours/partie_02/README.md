@@ -242,4 +242,4 @@ Et nous avons appliqué une bonne pratique de programmation en évitant de dupli
 
 ## Prochaine partie
 
-Pour la prochaine fois, nous verrons un peu plus la notion de variables, comment les déclarer et comment les manipuler dans la [Théorie des variables](cours/partie_03/README.md)
+Pour la prochaine fois, nous verrons un peu plus la notion de variables, comment les déclarer et comment les manipuler dans la [Théorie des variables](../partie_03/README.md)

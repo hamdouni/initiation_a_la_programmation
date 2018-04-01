@@ -222,3 +222,7 @@ Et pour les plus téméraires, écrire un programme qui affiche l'âge des perso
     Les personnes nées en 1973 ont 45 ans.
     ...
 ```
+
+## Prochaine partie
+
+Pour la prochaine fois, nous utiliserons ce que nous avons appris des variables pour mettre en pratique quelques cas dans la [Pratique des variables](../partie_04/README.md)

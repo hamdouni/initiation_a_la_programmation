@@ -78,36 +78,35 @@ Passons à la ligne (touche **Entrée**) et entrons la suite :
 func main() {
 ```
 
-Le mot **func** introduit une fonction. Elle permet de regrouper le code qui la suit et qui est entouré par une accolade ouvrante et fermante. 
+Le mot **func** introduit une fonction. 
 
 Chaque fonction porte un nom, ici **main**.
 
-La fonction **main** a une propriété particulière pour Go : c'est là que notre programme commence.
+Une fonction permet de regrouper du code. Tout ce qui se trouve entre l'accolade ouvrante et fermante fait partie de la fonction.
 
-Nous verrons plus en détail les fonctions.
+Nous verrons plus en détail à quoi servent les fonctions.
 
-Pour l'instant, continuons notre programme en tapant à la ligne :
+Pour l'instant, retenons que la fonction **main** a une propriété particulière pour Go car c'est là que débutera notre programme.
+
+Continuons notre programme en tapant à la ligne :
 
 ```go
 	for i := 1; i <= 10; i++ {
 ```
-**for** nous permet de répéter plusieurs fois le même code. On dit que **for** est une boucle. 
 
-On indique que l'on va utiliser une variable que l'on nomme **i**.
+**for** nous permet de définir une boucle. 
 
-Pour faire simple, disons qu'une variable est une case mémoire dans laquelle on peut stocker une donnée pour la manipuler.
+Une boucle répéte plusieurs fois le code qui se trouve entre accolades.
 
-**i := 1** stocke la valeur initale **1** dans notre variable **i**.
+Pour cela, **for** a besoin de 3 parties :
 
-**i <= 10** indique que l'on veut que notre variable ne dépasse pas **10**.
+1. **i := 1** : une variable que l'on nomme **i** et à laquelle on affecte la valeur 1. Une variable est une case mémoire dans laquelle on peut stocker une donnée pour la manipuler.
+2. **i <= 10** indique que l'on tourne dans la boucle tant que notre variable ne dépasse pas **10**.
+3. **i++** fera avancer notre variable **i** de 1 en 1, à chaque tour de boucle.
 
-**i++** fera avancer notre varuable de 1 en 1.
+Notre variable **i** va donc prendre les valeurs 1 puis 2, 3, ... etc, jusqu'à 10.
 
-Donc, notre variable **i** va prendre les valeurs successives 1, 2, 3, ... etc, jusqu'à 10.
-
-Avez vous remarqué une accolage à la fin de la ligne ? Le code à répéter par notre boucle **for** se trouve entre une accolade ouvrante et une accolade fermante.
-
-Ajouter à la ligne le code à répeter :
+Allons à la ligne pour écrire le code qui sera répeté :
 
 ```go
 		print(i*7, " ")
@@ -115,7 +114,10 @@ Ajouter à la ligne le code à répeter :
 
 **print** affiche un contenu à l'écran. 
 
-Ici, on affiche **i*7**, la variable i qu'on multiplie par 7, suivi d'un petit espace **" "** pour que nos nombres ne s'affichent pas collés les uns aux autres.
+Le contenu a afficher se trouve entre parenthèses :
+
+* **i*7**, la variable i qu'on multiplie par 7
+* un petit espace **" "** pour que nos nombres ne s'affichent pas collés les uns aux autres.
 
 **Pour information** : La multiplication est représentée par une petite étoile **\***, et non une croix comme on a l'habitude. Les autres opérations arithmétiques sont **+** et **-**, sans surprise, mais **/** pour la division. 
 
@@ -123,9 +125,9 @@ Comme **i** vaut 1 au début de notre boucle, on affichera 1*7, soit 7.
 
 Puis **i** passe à 2, et on affichera 2*7, soit 14.
 
-Et ainsi de suite jusqu'à ce que **i** vaut 10.
+Et ainsi de suite jusqu'à ce que **i** vaut 10, pour afficher 70.
 
-N'oubliez pas d'ajouter 2 accolades fermantes : une pour fermer l'accolade ouvrante de la ligne **for** et l'autre pour la ligne **func**.
+N'oubliez pas d'ajouter les 2 accolades fermantes : une pour fermer l'accolade ouvrante de la ligne **for** et l'autre pour la ligne **func**.
 
 Appuyez sur le bouton **Format** pour que votre code soit mieux présenté.
 
@@ -149,7 +151,8 @@ Notre premier programme en Go fait quelque chose d'utile... en tous les cas pour
 
 Si vous n'obtenez pas ce résultat, ou qu'un message d'erreur en anglais s'affiche, pas de panique ! Cela arrive tout le temps quand on programme et voici ce que l'on doit faire :
 
-1. Relisez attentivement votre code, et faites très attention aux ponctuations : par exemple une virgule à la place d'un point-virgule, aux oublies de signes comme une parenthèse fermante, ou aux fautes d'orthographes, un **primt** n'est pas un **print**.
+1. Lisez le message d'erreur pour repérer le numéro de la ligne incriminée et le type d'erreur.
+2. Relisez attentivement votre code, et faites très attention aux ponctuations : par exemple une virgule à la place d'un point-virgule, aux oublies de signes comme une parenthèse fermante, ou aux fautes d'orthographes, **primt** n'est pas **print**.
 2. A chaque fois que vous corrigez, relancez le programme pour vérifier que cela marche (**Run** ou Shift+Enter).
 3. Si cela ne fonctionne pas, n'hésitez pas à copier/coller le programme complet ci-dessus.
 
