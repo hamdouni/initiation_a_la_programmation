@@ -98,7 +98,9 @@ Continuons notre programme en tapant à la ligne :
 
 Une boucle répéte plusieurs fois le code qui se trouve entre accolades.
 
-Pour cela, **for** a besoin de 3 parties :
+Pour cela, **for** a besoin de 3 parties séparées par un point-virgule :
+
+![for expliqué](assets/01_for.png)
 
 1. **i := 1** : une variable que l'on nomme **i** et à laquelle on affecte la valeur 1. Une variable est une case mémoire dans laquelle on peut stocker une donnée pour la manipuler.
 2. **i <= 10** indique que l'on tourne dans la boucle tant que notre variable ne dépasse pas **10**.
