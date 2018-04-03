@@ -119,9 +119,11 @@ Allons à la ligne pour écrire le code qui sera répeté :
 Le contenu a afficher se trouve entre parenthèses :
 
 * **i*7**, la variable i qu'on multiplie par 7
-* un petit espace **" "** pour que nos nombres ne s'affichent pas collés les uns aux autres.
+* **" "**, un petit espace pour que nos nombres ne s'affichent pas collés les uns aux autres.
 
-**Pour information** : La multiplication est représentée par une petite étoile **\***, et non une croix comme on a l'habitude. Les autres opérations arithmétiques sont **+** et **-**, sans surprise, mais **/** pour la division. 
+**Deux remarques** : 
+1. La multiplication est représentée par une petite étoile **\***, et non une croix comme on a l'habitude. Les autres opérations arithmétiques sont **+** et **-**, sans surprise, mais **/** pour la division. 
+2. Notre petit espace est entouré par des guillemets. C'est ainsi qu'on délimite une chaine de caractères, notion qu'on aura l'occasion de recroiser.
 
 Comme **i** vaut 1 au début de notre boucle, on affichera 1*7, soit 7.
 

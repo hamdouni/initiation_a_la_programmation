@@ -5,17 +5,30 @@ Aujourd'hui, dans cette partie un peu plus théorique, nous allons voir de plus 
 ## Stocker les données
 
 Pour garder une information en mémoire, nous avons besoin de variables.
+
 Une variable est un nom que l'on donne à une case mémoire pour y ranger des données.
 
 Par exemple :
 
 ```go
-    var m = 123
+    var m int
 ```
 
-donnera le nom _m_ a une case mémoire dans laquelle on va ranger le nombre 123.
+donnera le nom _m_ a une case mémoire dans laquelle on va ranger un nombre entier: **int** est le diminutif du mot anglais **integer** qui signifie entier.
 
-On appelle cela une déclaration de variable : nous déclarons que la variable **m** est un nombre qui vaut 123.
+Donner un nom à une case mémoire s'appelle déclarer la variable : nous déclarons que la variable **m** est un nombre entier.
+
+**Remarque:** par défaut, _m_ prendra la valeur 0.
+
+Il est possible de spécifier une valeur lors de la déclaration. On appelle cela une _initialisation_.
+
+Par exemple, si l'on veut _initialiser_ la variable _m_ avec la valeur 123, nous écririons :
+
+```go
+    var m int = 123
+```
+
+Ainsi, nous déclarons que la variable m est un entier que nous initialisons à la valeur 123.
 
 ## Traiter les données
 
