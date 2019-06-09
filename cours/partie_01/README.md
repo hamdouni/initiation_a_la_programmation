@@ -11,10 +11,10 @@ Vous trouverez un écran subdivisé en 3 parties :
 ![bac-à-sable](assets/01_playground.png)
 
 01. Le fond bleu, en haut et à l'horizontal, délimite le menu.
-02. Le fond jaune, au centre, contient le programme
-03. enfin le fond blanc, en bas de page, affichera les résultats
+02. Le fond jaune, au centre, contient le programme.
+03. Enfin le fond blanc, en bas de page, affichera les résultats.
 
-C'est le **bac à sable** de Go (*playground* en anglais) : un endroit où l'on peut s'initier à Go, sans rien installer sur son ordinateur, avec un simple navigateur.
+C'est le **bac à sable** de Go (*playground* en anglais) : un endroit où l'on peut s'initier à la programmation, sans rien installer sur son ordinateur, avec un simple navigateur.
 
 On constate qu'il y a déjà du code présent dans la partie jaune. Appuyons sur le bouton **Run**.
 
