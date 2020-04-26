@@ -1,6 +1,6 @@
 # Initiation à la programmation informatique - Partie 4
 
-Après une partie 3 plus théorique, nous allons, dans cette partie, illustrer ces notions pour écrire un programme de calcul d'âge.
+Après une partie 3 plus théorique, où nous avons abordé les variables, nous allons ici illustrer cette notion pour écrire un programme de calcul d'âge.
 
 ## Exercice 1 : calculer un âge
 
