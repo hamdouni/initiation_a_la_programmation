@@ -30,6 +30,14 @@ Par exemple, si l'on veut _initialiser_ la variable _m_ avec la valeur 123, nous
 
 Ainsi, nous déclarons que la variable m est un entier que nous initialisons à la valeur 123.
 
+Lorsqu'on intialise une variable, on peut omettre de préciser le type car il peut être induit par la valeur que l'on affecte. L'exemple ci-dessus peut s'écrire plus simplement :
+
+```go
+    var m = 123
+```
+
+Comme 123 est un entier, la variable _m_ sera par défaut de type _int_.
+
 ## Traiter les données
 
 Une fois que l'on sait stocker une donnée, on va pouvoir la manipuler. 
