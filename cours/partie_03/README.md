@@ -30,7 +30,7 @@ Par exemple, si l'on veut _initialiser_ la variable _m_ avec la valeur 123, nous
 
 Ainsi, nous déclarons que la variable m est un entier que nous initialisons à la valeur 123.
 
-Lorsqu'on intialise une variable, on peut omettre de préciser le type car il peut être induit par la valeur que l'on affecte. L'exemple ci-dessus peut s'écrire plus simplement :
+Lorsqu'on initialise une variable, on peut omettre de préciser le type car il peut être induit par la valeur que l'on affecte. L'exemple ci-dessus peut s'écrire plus simplement :
 
 ```go
     var m = 123
@@ -148,7 +148,7 @@ Une autre notation assez pratique est également possible sur les calculs qui au
     y = y - 1
 ```
 
-peut s'écrire plus simplement 
+peuvent s'écrire plus simplement 
 
 ```go
     x ++
