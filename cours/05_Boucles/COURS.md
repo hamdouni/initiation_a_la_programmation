@@ -1,11 +1,8 @@
----
-id: 01b76d9a-9e03-4c57-87e7-dd46498cd851
-title: 10_repeter Des Operations   La Boucle for
-desc: ''
-updated: 1610816806918
-created: 1610816806918
----
-# Répéter des opérations : les boucles
+# Initiation à la programmation Go - Partie 5 - Les boucles
+
+En programmation, nous faisons appel régulièrement à la notion de répétition : nous devons répéter le même traitement sur des données différentes. Nous avons à notre disposition un outil puissant : les boucles.
+
+## Répéter des opérations : les boucles
 
 Pour faire compter l'ordinateur de 1 à 10, et compte tenu de ce que l'on connait déjà, on pourrait écrire :
 

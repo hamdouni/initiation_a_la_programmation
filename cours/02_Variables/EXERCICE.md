@@ -1,4 +1,4 @@
-# Initiation à la programmation informatique - Partie 4
+# Initiation à la programmation Go - Partie 4
 
 Après une partie 3 plus théorique, où nous avons abordé les variables, nous allons ici illustrer cette notion pour écrire un programme de calcul d'âge.
 
@@ -88,7 +88,7 @@ Ce que l'on pourrait traduire par la variable **naissance** prend la valeur 1972
 
 Ok, on a notre boucle. 
 
-Si on reprend notre calcule d'aĝe plus haut, on devrait avoir à l'intérieur de la boucle quelque chose comme suit :
+Si on reprend notre calcul d'aĝe plus haut, on devrait avoir à l'intérieur de la boucle quelque chose comme suit :
 
 ```go
     ...

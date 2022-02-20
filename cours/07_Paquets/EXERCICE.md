@@ -1,10 +1,3 @@
----
-id: 65750df4-43d6-427f-9f0f-d59b942410f8
-title: 13_exemple   Interagir Avec L Utilisateur via Saisie
-desc: ''
-updated: 1610816806919
-created: 1610816806919
----
 # Exemple : intéragir avec l'utilisateur via saisie
 
 On va demander 3 phrases à l'utilisateur, qu'il va saisir au clavier, et que l'on va réafficher tout en majuscule.

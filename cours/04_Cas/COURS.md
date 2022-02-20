@@ -1,13 +1,8 @@
----
-id: 3063946a-25e9-43ce-abac-e2e7a18e3734
-title: 08_gerer Des Cas   Switch Case
-desc: ''
-updated: 1610816806917
-created: 1610816806917
----
-# Gérer des cas
+# Initiation à la programmation Go - Partie 7
 
-## Remplacement du _if_
+En complément de la gestion des conditions, nous allons voir une autre façon de gérer les différents cas qui peuvent se produire.
+
+## Gérer des cas et remplacement du _if_
 
 Lorsqu'on doit effectuer plus de 2 comparaisons, le _if_ n'est pas toujours le plus pratique. 
 

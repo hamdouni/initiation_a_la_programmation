@@ -1,4 +1,4 @@
-# Initiation à la programmation informatique - Partie 3
+# Initiation à la programmation Go - Partie 3 - Les variables
 
 Aujourd'hui, dans cette partie un peu plus théorique, nous allons voir de plus près la notion de variables et de type. 
 
@@ -19,6 +19,13 @@ donnera le nom _m_ a une case mémoire dans laquelle on va ranger un nombre enti
 Donner un nom à une case mémoire s'appelle déclarer la variable : nous déclarons que la variable **m** est un nombre entier.
 
 **Remarque:** par défaut, _m_ prendra la valeur 0.
+
+Le choix du nom d'une variable est libre mais il faut respecter quelques règles :
+
+* un nom de variable doit commencer par une lettre ou le signe *_*
+* seuls les caractères alpha-numériques (a-z, A-Z, 0-9) et *_* sont autorisés : pas d'espace ou de signes de ponctuations ou de caractères spéciaux
+* la casse est signifiante : age, Age et AGE sont 3 variables différentes
+* vous ne pouvez pas utiliser l'un des mots clés du langage Go, comme *print* ou *func*.
 
 Il est possible de spécifier une valeur lors de la déclaration. On appelle cela une _initialisation_.
 
@@ -182,9 +189,21 @@ Par défaut, Go lui assignera la valeur zéro
     print(f)
 ```
 
-affichera 0.
+affichera +0.000000e+000 soit l'équivalent de zéro.
 
-On indique toujours la valeur par défaut sous forme d'un décimal (à l'anglaise, avec le point comme séparateur de virgule), surtout lorsqu'on veut affecter une première valeur entière. 
+Pour enlever toute ambiguité, nous devons écrire :
+
+```go
+var f = 1.0
+```
+
+pour que Go comprenne que notre variable f est de type flotant. Si nous avions écris
+
+```go
+var f = 1
+```
+
+il aurait deviner que f était un int (entier).
 
 Dans l'exemple suivant qui plante volontairement, la variable _f_ sera bien de type _float32_ car la valeur 3.14 sera interprétée par Go comme un décimal. Par contre, la variable _j_ sera de type _int_ car 2 est un entier pour Go.
 
@@ -194,7 +213,7 @@ Dans l'exemple suivant qui plante volontairement, la variable _f_ sera bien de t
     print(f*j)
 ```
 
-génèrera l'erreur "mismatched types float64 and int", ce que l'on traduira par "mélange entre type flottant et entier". 
+génèrera l'erreur "mismatched types float64 and int", ce que l'on traduira par "mélange entre type flottant et entier". Go n'accepte pas d'opération sur des variables de type différent.
 
 Pour y remédier, on met 2 sous sa forme décimal comme suit :
 
@@ -204,7 +223,8 @@ Pour y remédier, on met 2 sous sa forme décimal comme suit :
     print(f+j)
 ```
 
-affiche le résultat correct 6,28 car Go interprétera _j_ comme flottant.
+Cette fois, Go interprétera _j_ comme flottant et 
+affichera le résultat correct 6,28.
 
 ## Le type chaine de caractères
 
@@ -215,7 +235,7 @@ Pour représenter du texte, on utilisera le type _string_ (chaine en français).
     println(a)
 ```
 
-L'addition de 2 chaines de caractères revient à les concaténer (il n'y a pas d'équivalent de la soustraction ou de la multiplication pour les chaines). Ainsi, si l'on écrit :
+L'addition de 2 chaines de caractères revient à les concaténer. Ainsi, si l'on écrit :
 
 ```go
     a := "De la terre "
@@ -226,21 +246,25 @@ L'addition de 2 chaines de caractères revient à les concaténer (il n'y a pas 
 
 on obtiendra l'affichage de "De la terre à la lune" à l'écran.
 
+ Remarquez que les autres opérations arithmétiques ne s'appliquent pas pour les chaines de caractères (soustraction, multiplication ou division).
+
 ## Conclusion
 
-Nous avons vu, dans le détail, 2 notions que nous allons utilisés fréquemment : les variables et les types associés. 
+Nous avons vu, dans le détail, les variables et les types ; 2 notions que nous allons utiliser fréquemment. 
 
 La plupart des programmes informatiques vont mobiliser soit des nombres entiers, soit des nombres décimaux, soit des chaînes de caractères, mais la plupart du temps, un mix de tout cela.
 
-Nous verrons qu'il existe d'autres types, plus complexes, comme des types composites, constitués de plusieurs sous-types (**struct**) ou des structures comme les tableaux (**slice**).
+Nous verrons qu'il existe d'autres types, plus complexes : par exemple, des regroupements de plusieurs valeurs de même type (**slice**) ou de types différents (**struct**). 
 
-Pour vous exercer, vous devrez écrire un programme qui calcule et affiche l'âge d'une personne dont on connait l'année de naissance. On suppose qu'on ne s'occupe pas du jour et du mois, et qu'on connait l'année en cours. 
+## Exercices
+
+En attendant, pour vous exercer, vous devrez écrire un programme qui calcule et affiche l'âge d'une personne dont on connait l'année de naissance. On supposera qu'on ne s'occupe pas du jour et du mois, et qu'on connait l'année en cours. 
 
 Et pour les plus téméraires, écrire un programme qui affiche l'âge des personnes nées entre 1972 et 1992, sous la forme :
 
 ```
-    Les personnes nées en 1972 ont 46 ans.
-    Les personnes nées en 1973 ont 45 ans.
+    Les personnes nées en 1972 ont 50 ans.
+    Les personnes nées en 1973 ont 51 ans.
     ...
 ```
 

@@ -1,4 +1,4 @@
-# Initiation à la programmation informatique - Partie 1
+# Initiation à la programmation Go - Partie 1 - Introduction
 
 Faisons connaissance avec le langage Go. Apprenons à le lire et le manipuler. Puis écrivons un premier programme utile.
 
@@ -70,7 +70,7 @@ Ecrivons la ligne suivante :
 package main
 ```
 
-En anglais, **package** signifie "paquet" et **main** signifie principal : notre programme fait partie du paquet principal.
+**package main** signifie "paquet principal" : pour le moment, retenons que, pour fonctionner, notre programme doit faire partie du paquet principal. Plus tard, les paquets nous intéresseront pour leur capacité à organiser notre programme.
 
 Passons à la ligne (touche **Entrée**) et entrons la suite : 
 
@@ -122,7 +122,7 @@ Le contenu a afficher se trouve entre parenthèses :
 * **" "**, un petit espace pour que nos nombres ne s'affichent pas collés les uns aux autres.
 
 **Deux remarques** : 
-1. La multiplication est représentée par une petite étoile **\***, et non une croix comme on a l'habitude. Les autres opérations arithmétiques sont **+** et **-**, sans surprise, mais **/** pour la division. 
+1. La multiplication est représentée par une petite étoile **\***, et non une croix comme on en a l'habitude. Les autres opérations arithmétiques sont **+** et **-**, sans surprise, mais **/** pour la division. 
 2. Notre petit espace est entouré par des guillemets. C'est ainsi qu'on délimite une chaine de caractères, notion qu'on aura l'occasion de recroiser.
 
 Comme **i** vaut 1 au début de notre boucle, on affichera 1*7, soit 7.
@@ -147,11 +147,9 @@ func main() {
 }
 ```
 
-Appuyez sur **Run** ou Shift+Enter et voilà :
+Appuyez sur **Run** ou Shift+Enter et voilà le résultat de notre premier programme en Go :
 
 ![table_de_7](assets/01_table_de_7.png) 
-
-Notre premier programme en Go fait quelque chose d'utile... en tous les cas pour moi :-)
 
 Si vous n'obtenez pas ce résultat, ou qu'un message d'erreur en anglais s'affiche, pas de panique ! Cela arrive tout le temps quand on programme et voici ce que l'on doit faire :
 
@@ -168,11 +166,11 @@ Nous avons aussi fait connaissance avec quelques mots de ce langage pour affiche
 
 Nous avons également effleurer plusieurs notions que nous approfondirons plus tard, comme les paquets (**package**), les fonctions (**func**) ou encore les variables.
 
-Pour vous exercer, vous pouvez changer le programme pour afficher la table d'autres nombres, par exmple celle de 9.
+## Exercices
 
-Vous pouvez également expliciter la multiplication en affichant l'opération, par exemple : **7 x 2 = 14**
-
-Et pour les plus téméraires, vous pouvez réfléchir à afficher toutes les tables sous la forme d'un tableau comme suit :
+1. Changer le programme pour afficher la table des 9.
+2. Expliciter la multiplication en affichant l'opération, par exemple : **7 x 2 = 14**
+3. Pour les plus téméraires, afficher toutes les tables sous la forme d'un tableau comme suit :
 
 ```
 1  2  3  4  5  6  7  8  9  10

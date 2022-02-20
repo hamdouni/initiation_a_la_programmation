@@ -1,8 +1,8 @@
-# Initiation à la programmation informatique - Partie 2
+# Initiation à la programmation Go - Partie 2
 
 La dernière fois, nous avons débuté la programmation. Grâce au bac-à-sable Go, nous avons écris et exécuté un programme qui affiche la table de multiplication par 7. Nous avons finis sur quelques exercices à faire et ici nous allons les corriger.
 
-## Exercice 1 : afficher d'autres tables de multiplication
+## Exercice 1 : afficher la table des 9
 
 Notre dernier programme se présentait ainsi :
 
@@ -16,7 +16,7 @@ func main() {
 }
 ```
 
-Si nous voulons afficher la table de 9, par exemple, il n'y a qu'une modification à faire : changez le **i*7** dans l'instruction **print**, par **i*9**, comme suit :
+Si nous voulons afficher la table des 9, il n'y a qu'une modification à faire : changez le **i*7** dans l'instruction **print**, par **i*9**, comme suit :
 
 ```go
 package main
@@ -32,7 +32,7 @@ En exécutant le programme (bouton **RUN** ou SHIFT+ENTER), on obtient :
 
 ![table_de_9](assets/02_table_de_9.png)
 
-Et donc, pour obtenir les autres tables, on applique la même méthode, en remplaçant le terme dans l'instruction **print**.
+Pour obtenir d'autres tables, on applique la même méthode, en remplaçant le terme dans l'instruction **print**.
 
 ## Exercice 2 : expliciter l'opération de multiplication
 
@@ -159,7 +159,7 @@ Nous devons donc écrire un **for** pour le premier terme de la multiplication, 
 	}
 ```
 
-Vous devez faire attention à ne pas utiliser la même variable. Ici, j'utilise **i** et **j** pour indiquer les 2 termes de ma multiplication.
+Vous devez faire attention à ne pas utiliser la même variable. Ici, j'utilise **i** et **j** pour indiquer les 2 termes de ma multiplication : **i** pour le **for** extérieur, et **j** pour le **for** intérieur.
 
 On va maintenant s'intéresser à ce qu'on affiche : on veut le résultat de la multiplication de nos 2 termes, donc on veut le résultat de **i** x **j**. On devrait écrire :
 

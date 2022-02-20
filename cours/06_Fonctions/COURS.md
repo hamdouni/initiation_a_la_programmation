@@ -1,11 +1,4 @@
----
-id: 6cf60edd-7845-49a2-9f77-d05bdcce2329
-title: 11_ne Pas Se Repeter   Les Fonctions
-desc: ''
-updated: 1610816806918
-created: 1610816806918
----
-# Ne pas se répéter : les fonctions
+# Initiation à la programmation Go - Partie 6 - Les fonctions
 
 Les fonctions en Go permettent de regrouper des opérations pour pouvoir les éxécuter plusieurs fois. Dès que du code est répété plus d'une fois, il sera nécessaire de le regrouper sous une fonction.
 
