@@ -1,9 +1,9 @@
 /*
-Plus Grand Diviseur Commun
+Plus Grand Commun Diviseur
 
 Rappel : le PGCD de deux nombres entiers n et m est le plus grand nombre possible, qui divise à la fois n et m.
 
-Euclid a proposé un algorithme pour résoudre ce problème comme suit :
+Euclid a proposé, vers 300 avant JC, un algorithme pour résoudre ce problème comme suit :
 
 E1. r le reste de la division entière de m par n
 E2. si r = 0, le résultat est n et l'algorithme se termine

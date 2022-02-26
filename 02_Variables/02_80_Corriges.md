@@ -63,7 +63,7 @@ func main() {
 ```
 Pour le résultat suivant :
 
-![calculer_age](assets/04_calculer_age.png)
+![calculer_age](../assets/04_calculer_age.png)
 
 ## Exercice 2 - calculer l'âge pour la génération 1972 - 1992
 
@@ -130,4 +130,4 @@ func main() {
 
 Et voilà le résultat :
 
-![calculer_age_generation](assets/04_calculer_age_generation.png)
+![calculer_age_generation](../assets/04_calculer_age_generation.png)

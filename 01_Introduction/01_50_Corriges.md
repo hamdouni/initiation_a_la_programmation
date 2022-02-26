@@ -1,8 +1,8 @@
-# Initiation à la programmation Go - Partie 2
+## Corrigés
 
 La dernière fois, nous avons débuté la programmation. Grâce au bac-à-sable Go, nous avons écris et exécuté un programme qui affiche la table de multiplication par 7. Nous avons finis sur quelques exercices à faire et ici nous allons les corriger.
 
-## Exercice 1 : afficher la table des 9
+__Afficher la table des 9__
 
 Notre dernier programme se présentait ainsi :
 
@@ -30,11 +30,11 @@ func main() {
 
 En exécutant le programme (bouton **RUN** ou SHIFT+ENTER), on obtient :
 
-![table_de_9](assets/02_table_de_9.png)
+![table_de_9](../assets/02_table_de_9.png)
 
 Pour obtenir d'autres tables, on applique la même méthode, en remplaçant le terme dans l'instruction **print**.
 
-## Exercice 2 : expliciter l'opération de multiplication
+__Expliciter la multiplication__
 
 Pour cet exercice, plutôt que de n'afficher que le résultat, on veut afficher toute l'opération, par exemple **4 x 7 = 28**.
 
@@ -66,7 +66,7 @@ func main() {
 
 Exécutons le programme pour vérifier que tout est bon :
 
-![table_de_7_moche](assets/02_table_de_7_moche.png) 
+![table_de_7_moche](../assets/02_table_de_7_moche.png) 
 
 Pas terrible. Tout est collé.
 
@@ -78,7 +78,7 @@ Ajoutons quelques espaces dans notre ligne **print**, autour du signe "x", du si
 
 Cela donne :
 
-![table_de_7_moins_moche](assets/02_table_de_7_moins_moche.png)
+![table_de_7_moins_moche](../assets/02_table_de_7_moins_moche.png)
 
 C'est mieux mais pas très lisible. L'idéal serait de sauter une ligne après chaque opération.
 
@@ -92,7 +92,7 @@ Changeons notre ligne comme suit en ajoutant notre code spécial :
 
 Pour un résultat plus convainquant :
 
-![table_de_7_jolie](assets/02_table_de_7_jolie.png)
+![table_de_7_jolie](../assets/02_table_de_7_jolie.png)
 
 Voilà le programme au complet :
 
@@ -106,7 +106,7 @@ func main() {
 }
 ```
 
-## Exercice 3 : afficher toutes les tables sous forme d'un tableau
+__Afficher sous forme d'un tableau__
 
 Pour ce dernier exercice, on veut afficher toutes les tables de multiplication de 1 à 10, sous la forme d'un tableau comme suit :
 
@@ -143,7 +143,7 @@ func main() {
 
 Et l'on répéterait le bloc 10 fois, en changeant le terme de la multiplication.
 
-Mais cette approche, même si elle marche, n'est pas bonne. En informatique, on doit éviter de dupliquer du code !
+Mais cette approche, même si elle marche, est rébarbative. Et on peut faire mieux !
 
 En regardant de plus près, on peut voir que seul le terme de la multiplication change à chaque fois. Il passe de 1 à 10. Tout le reste est identique.
 
@@ -159,7 +159,11 @@ Nous devons donc écrire un **for** pour le premier terme de la multiplication, 
 	}
 ```
 
-Vous devez faire attention à ne pas utiliser la même variable. Ici, j'utilise **i** et **j** pour indiquer les 2 termes de ma multiplication : **i** pour le **for** extérieur, et **j** pour le **for** intérieur.
+On parle alors de boucles imbriquées.
+
+Vous devez faire attention à ne pas utiliser la même variable. 
+
+Ici, on utilise **i** et **j** pour indiquer les 2 termes de la multiplication : **i** pour le **for** extérieur, et **j** pour le **for** intérieur.
 
 On va maintenant s'intéresser à ce qu'on affiche : on veut le résultat de la multiplication de nos 2 termes, donc on veut le résultat de **i** x **j**. On devrait écrire :
 
@@ -185,11 +189,11 @@ func main() {
 
 Et une fois exécuté, nous avons :
 
-![table_complete_moche](assets/02_table_complete_moche.png)
+![table_complete_moche](../assets/02_table_complete_moche.png)
 
 Tous les résultas s'enchainent sur une même ligne ! Or nous voulions qu'à chaque nouvelle table, on saute de ligne.
 
-Pas de problème, nous avons déjà vu comment sauter de ligne plus haut. Il suffit d'ajouter le saut juste après l'affichage d'une table comme suit :
+Pas de problème, nous avons déjà vu, plus haut, comment sauter à la ligne. Il suffit d'ajouter le code _\n_ juste après l'affichage d'une table comme suit :
 
 ```go
 package main
@@ -207,11 +211,11 @@ Remarquez l'ajout de la ligne **print("\n")** juste après le **for** intérieur
 
 Qu'obtient-on ?
 
-![table_complete_moins_moche](assets/02_table_complete_moins_moche.png)
+![table_complete_moins_moche](../assets/02_table_complete_moins_moche.png)
 
-Le tableau est mal aligné parce-que tous les nombres n'ont pas la même taille. 
+On a bien le saut de ligne escompté mais le tableau est mal aligné : tous les nombres n'ont pas la même taille. 
 
-On peut améliorer l'affichage avec la tabulation. En utilisant le code "\t" à la place de l'espace de séparation, on demande d'afficher les infos qui suivent à la prochaine tabulation.
+On peut améliorer l'affichage avec la tabulation. En utilisant le code _\t_ à la place de l'espace de séparation, on demande d'afficher les infos qui suivent à la prochaine tabulation.
 
 Utilisons cela dans notre programme :
 
@@ -228,9 +232,9 @@ func main() {
 }
 ```
 
-Et voilà un résultat plus que satisfaisant :
+Et voilà un résultat plus satisfaisant :
 
-![table_complete_jolie](assets/02_table_complete_jolie.png)
+![table_complete_jolie](../assets/02_table_complete_jolie.png)
 
 ## Conclusion
 
