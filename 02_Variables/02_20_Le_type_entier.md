@@ -24,3 +24,5 @@ Chaque type détermine la taille maximum de la variable.
 Un _int_ peut aller de -2147483648 à 2147483647 (2 puissance 31 - 1 en architecture 32 bits).
 
 Si l'on veut manipuler des nombres entiers encore plus grand, il faudra utiliser le type _int64_, entier sur 64 bits avec une valeur max de 9223372036854775807 (2 puissance 63 - 1).
+
+Avant d'aller plus loin, apprenons quelques raccourcis qui vont nous être utiles par la suite : [Raccourcis pratiques](./02_30_Raccourcis_pratiques.md).

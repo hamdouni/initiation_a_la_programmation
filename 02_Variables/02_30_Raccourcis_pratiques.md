@@ -57,3 +57,6 @@ On trouvera aussi l'équivalent pour la multiplication :
 et pour la division : 
 
     y = y / 100   peut s'écrire    y /= 100
+
+
+Découvrons maintenant d'autres types de variables, en commençant par les décimaux : [Type décimal](./02_40_Le_type_decimal.md).

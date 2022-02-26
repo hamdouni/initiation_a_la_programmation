@@ -1,8 +1,8 @@
-# Initiation à la programmation Go - Partie 4
+## Corrigés
 
 Après une partie 3 plus théorique, où nous avons abordé les variables, nous allons ici illustrer cette notion pour écrire un programme de calcul d'âge.
 
-## Exercice 1 : calculer un âge
+__Calculer un âge__
 
 On nous donne l'année de naissance de la personne et on suppose que l'on connait l'année en cours.
 
@@ -65,7 +65,8 @@ Pour le résultat suivant :
 
 ![calculer_age](../assets/04_calculer_age.png)
 
-## Exercice 2 - calculer l'âge pour la génération 1972 - 1992
+
+__Calculer l'âge pour la génération 1972 - 1992__
 
 Cette fois, on veut afficher l'âge des personnes nées entre 1972 et 1992, sous la forme :
 
@@ -131,3 +132,5 @@ func main() {
 Et voilà le résultat :
 
 ![calculer_age_generation](../assets/04_calculer_age_generation.png)
+
+Au prochain chapitre, nous abordons [la notion de conditions](../03_Conditions/03_00_Les_conditions.md).

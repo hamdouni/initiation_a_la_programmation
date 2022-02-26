@@ -9,3 +9,5 @@ Et pour les plus téméraires, écrire un programme qui affiche l'âge des perso
     Les personnes nées en 1973 ont 51 ans.
     ...
 ```
+
+Une fois fait ces exercices, ou si vous bloquez, vous pouvez consulter [la correction](./02_80_Corriges.md).

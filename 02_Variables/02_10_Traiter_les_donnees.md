@@ -35,3 +35,5 @@ Ci-dessous, nous appelons _p_ une nouvelle case mémoire dans laquelle nous rang
 ```
 
 donnera 256, le résultat de 4 x 64.
+
+Voyons maintenant un peu plus dans le détail la notion de type et d'entier : [Le type entier](./02_20_Le_type_entier.md).

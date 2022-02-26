@@ -24,3 +24,5 @@ Pour y arriver, sachez qu'il existe 2 codes spéciaux :
 * _\n_ le code permettant de sauter à la ligne
 
 * _\t_ le code permettant de passer à la tabulation suivante
+
+Tentez de réaliser les exercices par vous même avant de sauter à la section suivante : [la correction](./01_40_Corriges.md).

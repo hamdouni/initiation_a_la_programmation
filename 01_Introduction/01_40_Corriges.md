@@ -236,14 +236,4 @@ Et voilà un résultat plus satisfaisant :
 
 ![table_complete_jolie](../assets/02_table_complete_jolie.png)
 
-## Conclusion
-
-Nous avons vu comment progressivement améliorer notre code, en essayant une modification, en analysant le résultat et en recommençant jusqu'à satisfaction.
-
-Nous avons approfondis nos connaissances de l'instruction **for** et des variables, et appris au passage quelques codes d'affichage utiles comme le saut de ligne "\n" et la tabulation "\t".
-
-Et nous avons appliqué une bonne pratique de programmation en évitant de dupliquer du code !
-
-## Prochaine partie
-
-Pour la prochaine fois, nous verrons un peu plus la notion de variables, comment les déclarer et comment les manipuler dans la [Théorie des variables](../partie_03/README.md)
+Pour la suite, [un petit récapitulatif](./01_50_Pour_finir.md) de tout ce que l'on a apprit jusqu'ici !

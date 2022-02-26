@@ -53,3 +53,5 @@ Pour y remédier, on met 2 sous sa forme décimal comme suit :
 
 Cette fois, Go interprétera _j_ comme flottant et 
 affichera le résultat correct 6,28.
+
+Voyons maintenant le type qui permet de manipuler des caractères : [Le type chaîne](./02_50_Le_type_chaine_de_caracteres.md).

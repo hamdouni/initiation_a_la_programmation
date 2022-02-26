@@ -1,10 +1,8 @@
-# Initiation à la programmation Go - Partie 3 - Les variables
+# Les variables
 
-Dans cette partie un peu plus théorique, nous allons voir de plus près la notion de variable et de type. 
+Dans cette partie un peu plus théorique, nous allons voir de plus près la notion de variable et de type. Les variables nous servent tout le temps en programmation, et pour commencer, elles servent à stocker de l'information que l'on pourra utiliser ultérieurement.
 
 ## Stocker les données
-
-Pour garder une information en mémoire, nous avons besoin de variables.
 
 Une variable est un nom que l'on donne à une case mémoire pour y ranger des données.
 
@@ -23,8 +21,11 @@ Donner un nom à une case mémoire s'appelle déclarer la variable : nous décla
 Le choix du nom d'une variable est libre mais il faut respecter quelques règles :
 
 * un nom de variable doit commencer par une lettre ou le signe *_*
+
 * seuls les caractères alpha-numériques (a-z, A-Z, 0-9) et *_* sont autorisés : pas d'espace ou de signes de ponctuations ou de caractères spéciaux
+
 * la casse est signifiante : age, Age et AGE sont 3 variables différentes
+
 * vous ne pouvez pas utiliser l'un des mots clés du langage Go, comme *print* ou *func*.
 
 Il est possible de spécifier une valeur lors de la déclaration. On appelle cela une _initialisation_.
@@ -44,3 +45,5 @@ Lorsqu'on initialise une variable, on peut omettre de préciser le type car il p
 ```
 
 Comme 123 est un entier, la variable _m_ sera par défaut de type _int_.
+
+Nous allons voir ensuite comme utiliser ces variables : [Traiter les données](./02_10_Traiter_les_donnees.md).

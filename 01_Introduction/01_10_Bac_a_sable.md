@@ -1,6 +1,6 @@
 ## Le bac à sable
 
-Avec votre navigateur, allez sur http://play.golang.com
+Avec votre navigateur, allez sur [http://play.golang.com](http://play.golang.com)
 
 Vous trouverez un écran subdivisé en 3 parties :
 

@@ -18,4 +18,6 @@ L'addition de 2 chaines de caractères revient à les concaténer. Ainsi, si l'o
 
 on obtiendra l'affichage de "De la terre à la lune" à l'écran.
 
- Remarquez que les autres opérations arithmétiques ne s'appliquent pas pour les chaines de caractères (soustraction, multiplication ou division).
+Remarquez que les autres opérations arithmétiques ne s'appliquent pas pour les chaines de caractères (soustraction, multiplication ou division).
+
+Voilà pour quelques types de variables très utiles en Go. Il est temps de conclure ce chapitre et de passer à quelques exercices : [Conclusion](./02_60_Conclusion.md).
