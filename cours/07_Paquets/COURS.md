@@ -6,10 +6,10 @@ Les paquets interviennent à 2 niveaux : afin d'utiliser des fonctionnalités é
 
 On peut aisément ajouter des fonctionnalités supplémentaires au langage Go grâce à l'ajout de packages. Un package est simplement un ensemble de fonctions, cohérentes entre elles, qui permettent d'étendre les capacités de son programme. 
 
-Il en existe de très nombreux, dans des domaines très variés, comme le calcul mathématiques ou les manipulations de fichiers. Cf la liste sur le [site de Golang](https://golang.org/pkg/) à l'adresse :
+Il en existe de très nombreux, dans des domaines très variés, comme le calcul mathématiques ou les manipulations de fichiers. Cf la liste sur le [site de Golang](https://pkg.go.dev/std) à l'adresse :
 
 ```
-https://golang.org/pkg/
+https://pkg.go.dev/std
 ```
 
 Pour ajouter un package à notre programme, on utilise l'instruction _import_ suivie du nom du package souhaité entre guillemets :
@@ -34,7 +34,7 @@ import (
 )
 ```
 
-Pour voir ce que propose le package _strings_, allons sur <https://golang.org/pkg/strings/>. 
+Pour voir ce que propose le package _strings_, allons sur <https://pkg.go.dev/strings>. 
 
 On y trouve, par exemple, la fonction _ToUpper_ qui permet de mettre  une chaîne de caractère en lettres majuscules.
 
