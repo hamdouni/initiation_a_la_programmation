@@ -13,5 +13,5 @@ Toutes les contributions sont les bienvenues :
 ## Cours
 
 Pour démarrer le cours, vous pouvez commencer par
-[l'introduction](./01_Introduction/01_00_Introduction.md) ou consulter [le
-plan](./00_Plan.md)
+[l'introduction](./Cours/01_Introduction/01_00_Introduction.md) ou consulter
+[le plan](./Cours/00_Plan.md)
