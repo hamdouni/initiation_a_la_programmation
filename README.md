@@ -26,18 +26,18 @@ Toutes les contributions sont les bienvenues :
    aborde la gestion des conditions, pour que notre programme s'adapte aux
    différentes situations, avec un exercice.
 
-4. [Brouillon] [Les cas (swith-case)](./Cours/04_Cas/04_00_Cas.md) : on étend
+4. _Brouillon_ [Les cas (swith-case)](./Cours/04_Cas/04_00_Cas.md) : on étend
    ensuite la gestion des conditions, par la gestion des cas, toujours
    agrémentée d'un exercice.
 
-5. [Brouillon] [Les boucles (for)](./Cours/05_Boucles/05_00_Boucles.md) : on
+5. _Brouillon_ [Les boucles (for)](./Cours/05_Boucles/05_00_Boucles.md) : on
    continue avec le principe de "répétition", où l'on va pouvoir répéter un
    même traitement autant que de fois nécessaire sur des données différentes.
 
-6. [Brouillon] [Les fonctions (func)](./Cours/06_Fonctions/06_00_Fonctions.md)
+6. _Brouillon_ [Les fonctions (func)](./Cours/06_Fonctions/06_00_Fonctions.md)
    : on commence à organiser son programme en regroupant son code dans des
    fonctions que l'on peut exécuter à loisir.
 
-7. [Brouillon] [Les paquets (package)](./Cours/07_Paquets/07_00_Paquets.md) :
+7. _Brouillon_ [Les paquets (package)](./Cours/07_Paquets/07_00_Paquets.md) :
    on approfondie l'organisation du code avec les paquets et on apprend à
    utiliser le code des autres.
