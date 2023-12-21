@@ -26,7 +26,7 @@ Toutes les contributions sont les bienvenues :
    aborde la gestion des conditions, pour que notre programme s'adapte aux
    différentes situations, avec un exercice.
 
-4. _Brouillon_ [Les cas (swith-case)](./Cours/04_Cas/04_00_Cas.md) : on étend
+4. [Les cas (swith-case)](./Cours/04_Cas/04_00_Cas.md) : on étend
    ensuite la gestion des conditions, par la gestion des cas, toujours
    agrémentée d'un exercice.
 
