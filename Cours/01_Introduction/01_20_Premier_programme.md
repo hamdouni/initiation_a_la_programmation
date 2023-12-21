@@ -86,12 +86,12 @@ Le contenu a afficher se trouve entre parenthèses :
 
 * __i * 7__, la variable i qu'on multiplie par 7
 
-* __" "--, un petit espace pour que nos nombres ne s'affichent pas collés les
+* " ", un petit espace pour que nos nombres ne s'affichent pas collés les
   uns aux autres.
 
 **Deux remarques** : 
 
-1. La multiplication est représentée par une petite étoile __ * __, et non une
+1. La multiplication est représentée par une petite étoile *, et non une
    croix comme on en a l'habitude. Les autres opérations arithmétiques sont
    **+** et **-**, sans surprise, mais **/** pour la division. 
 

@@ -1,2 +1,3 @@
-theme: jekyll-theme-hacker
+theme: jekyll-theme-tactile
 title: Initiation à la programmation Go
+show_downloads: false
